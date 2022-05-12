@@ -1,0 +1,64 @@
+package br.edu.up.model;
+
+public class Programa {
+
+	public static void main(String[] args) {
+		
+		Animal objetoAnimal=new Animal();
+		//objeto mais concreto
+		objetoAnimal.nome="Tehx";
+		objetoAnimal.genero="Macho";
+		objetoAnimal.porte="Pequeno";
+		
+		try {
+			objetoAnimal.setIdade(-1);
+		} catch (Exception e) {
+				System.out.println("Erro: "+e.toString());
+		}
+		
+		
+		Cachorro objetoCachorro=new Cachorro();
+		objetoCachorro.nome="Amora";
+		objetoCachorro.genero="Fêmea";
+		objetoCachorro.porte="Pequeno";
+		
+		try {
+			objetoAnimal.setIdade(1);
+		} catch (Exception e) {
+				System.out.println("Erro: "+e.toString());
+		
+		Cachorro objetoCachorro1=new Cachorro();
+		objetoCachorro1.nome="Jonny";
+		objetoCachorro1.genero="Macho";
+		objetoCachorro1.porte="Pequeno";
+		
+		try {
+			objetoAnimal.setIdade(8);
+		} catch (Exception e) {
+				System.out.println("Erro: "+e.toString());
+		}
+		
+		
+		Cachorro objetoCachorro11=new Cachorro();
+		objetoCachorro11.nome="Zeus";
+		objetoCachorro11.genero="Macho";
+		objetoCachorro11.porte="Grande";
+		
+		try {
+			objetoAnimal.setIdade(3);
+		} catch (Exception e) {
+				System.out.println("Erro: "+e.toString());
+		}
+		
+		Homem objetoHomem=new Homem();
+		objetoHomem.nome="Robson";
+		objetoHomem.genero="Macho";
+		objetoHomem.porte="Médio";
+		
+		
+		
+		
+
+	}
+
+}

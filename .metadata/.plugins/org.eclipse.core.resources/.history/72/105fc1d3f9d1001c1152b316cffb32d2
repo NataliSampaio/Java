@@ -1,0 +1,5 @@
+import br.edu.up.model.Humano;
+
+public class Homem extends Humano {
+
+}

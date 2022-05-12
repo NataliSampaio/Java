@@ -1,0 +1,7 @@
+package br.edu.up.main;
+
+import br.edu.up.model.Animal;
+
+public class Homem extends Animal {
+
+}
