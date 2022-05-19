@@ -1,7 +1,0 @@
-package br.edu.up.main;
-
-import br.edu.up.model.Animal;
-
-public class Mulher extends Animal {
-
-}

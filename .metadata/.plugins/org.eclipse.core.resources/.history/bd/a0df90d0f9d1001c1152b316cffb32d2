@@ -1,5 +1,0 @@
-import br.edu.up.model.Humano;
-
-public class Mulher extends Humano {
-
-}
